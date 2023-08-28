@@ -1,1 +1,31 @@
-{ "hello": "Hello" }
+{
+  "hello": "Hello",
+  "logo": "https://st2.depositphotos.com/6789684/12262/v/450/depositphotos_122620866-stock-illustration-illustration-of-flat-icon.jpg",
+  "navigations": [
+    { "name": "Home", "href": "/" },
+    { "name": "About", "href": "/about" },
+    { "name": "Contact", "href": "/contact" }
+  ],
+  "heroSection": {
+    "image": {
+      "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRO7MFBYUB7YPdxTZliEpWNaEsVghGNFBd2Jw&usqp=CAU",
+      "alt": "Image"
+    },
+    "title": "Stay Informed with Our Comprehensive News",
+    "description": "Experience the latest and most relevant news from around the world with our intuitive and feature-rich news."
+  },
+  "sections": {
+    "category": "Categories",
+    "review": "Voice of the Audience"
+  },
+
+  "categories": ["Politics", "Entertainment", "Travel", "Fashion", "Food", "Sports"],
+  "reviews": [
+    { "title": "Engaging and Informative", "description": "Each article keeps me hooked till the end" },
+    { "title": "A Must-Have", "description": "Never miss out on what's happening around" },
+    { "title": "Insightful Reporting", "description": "Gives a deeper understanding of current affairs" },
+    { "title": "Sleek Design", "description": "User-friendly layout makes browsing smooth" },
+    { "title": "Timely Notifications", "description": "Always alerts me with breaking news in time" },
+    { "title": "Reliable Source of News", "description": "I trust this app for accurate and unbiased information" }
+  ]
+}

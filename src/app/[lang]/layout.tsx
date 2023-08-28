@@ -2,6 +2,7 @@ import { Locale, i18n } from "@/utilities/i18n-config";
 import "../globals.css";
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
+import Header from "./components/Header";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -17,7 +18,10 @@ export async function generateStaticParams() {
 export default async function RootLayout({ children, params }: { children: React.ReactNode; params: { lang: Locale } }) {
   return (
     <html lang={params.lang}>
-      <body className={inter.className}>{children}</body>
+      <body className={inter.className}>
+        <Header lang={params.lang} />
+        {children}
+      </body>
     </html>
   );
 }
