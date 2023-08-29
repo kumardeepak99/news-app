@@ -1,0 +1,48 @@
+{
+  "hello": "Hola",
+  "logo": "https://st2.depositphotos.com/6789684/12262/v/450/depositphotos_122620866-stock-illustration-illustration-of-flat-icon.jpg",
+  "navigations": [
+    { "name": "Inicio", "href": "/" },
+    { "name": "Acerca de", "href": "/about" },
+    { "name": "Contacto", "href": "/contact" }
+  ],
+  "heroSection": {
+    "image": {
+      "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSEkFIt5NFD53Fu28WE2CZ1l6g-E1vJ_tD5zUStlNrTm7pXegLEzzEUt6ZfpBWN0tw4Qvg&usqp=CAU",
+      "alt": "imagen"
+    },
+    "title": "Mantente Informado con Nuestra Completa Cobertura de Noticias",
+    "description": "Experimenta las últimas y más relevantes noticias de todo el mundo con nuestras noticias intuitivas y llenas de funciones."
+  },
+  "sections": {
+    "category": "categoría",
+    "review": "Voz del Público"
+  },
+  "categories": ["Política", "Entretenimiento", "Viajes", "Moda", "Comida", "Deportes"],
+  "reviews": [
+    { "title": "Interesante e Informativa", "description": "Cada artículo me mantiene interesado hasta el final" },
+    { "title": "Imprescindible", "description": "Nunca te pierdas lo que está sucediendo a tu alrededor" },
+    { "title": "Reportajes Esclarecedores", "description": "Ofrece una comprensión más profunda de los temas actuales" },
+    { "title": "Diseño Elegante", "description": "El diseño amigable facilita la navegación" },
+    { "title": "Notificaciones Oportunas", "description": "Siempre me alerta con las noticias de última hora a tiempo" },
+    { "title": "Fuente Confiable de Noticias", "description": "Confío en esta app para obtener información precisa e imparcial" }
+  ],
+  "aboutPage": {
+    "title": "Acerca de Nosotros",
+    "welcome": "¡Bienvenidos a nuestra plataforma de noticias! Estamos dedicados a brindarte las noticias más recientes y relevantes de todo el mundo. Nuestro equipo de periodistas experimentados trabaja incansablemente para ofrecer contenido preciso y cautivador.",
+    "mission": "Nuestra misión es mantenerte informado y empoderado. Cubrimos una amplia gama de temas, incluyendo política, tecnología, ciencia, entretenimiento y más. Creemos en el poder de la información para inspirar el cambio y fomentar el progreso.",
+    "voteOfThanks": "Gracias por ser parte de nuestro viaje. Mantente conectado con nosotros para las historias que importan."
+  },
+  "contactPage": {
+    "title": "Contáctanos",
+    "intro": "Valoramos tus comentarios y preguntas. No dudes en ponerte en contacto con nosotros a través de los siguientes canales.",
+    "emailLabel": "Correo electrónico:",
+    "email": "contacto@newsapp.com",
+    "phoneLabel": "Teléfono:",
+    "phone": "+123-456-7890",
+    "socialMediaLabel": "Redes Sociales:",
+    "socialMedia": "@newsapp",
+    "twitterLink": "https://twitter.com/newsapp",
+    "teamAssistance": "Nuestro equipo está aquí para ayudarte y proporcionarte la información que necesitas."
+  }
+}
