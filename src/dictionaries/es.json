@@ -26,5 +26,23 @@
     { "title": "Diseño Elegante", "description": "El diseño amigable facilita la navegación" },
     { "title": "Notificaciones Oportunas", "description": "Siempre me alerta con las noticias de última hora a tiempo" },
     { "title": "Fuente Confiable de Noticias", "description": "Confío en esta app para obtener información precisa e imparcial" }
-  ]
+  ],
+  "aboutPage": {
+    "title": "Acerca de Nosotros",
+    "welcome": "¡Bienvenidos a nuestra plataforma de noticias! Estamos dedicados a brindarte las noticias más recientes y relevantes de todo el mundo. Nuestro equipo de periodistas experimentados trabaja incansablemente para ofrecer contenido preciso y cautivador.",
+    "mission": "Nuestra misión es mantenerte informado y empoderado. Cubrimos una amplia gama de temas, incluyendo política, tecnología, ciencia, entretenimiento y más. Creemos en el poder de la información para inspirar el cambio y fomentar el progreso.",
+    "voteOfThanks": "Gracias por ser parte de nuestro viaje. Mantente conectado con nosotros para las historias que importan."
+  },
+  "contactPage": {
+    "title": "Contáctanos",
+    "intro": "Valoramos tus comentarios y preguntas. No dudes en ponerte en contacto con nosotros a través de los siguientes canales.",
+    "emailLabel": "Correo electrónico:",
+    "email": "contacto@newsapp.com",
+    "phoneLabel": "Teléfono:",
+    "phone": "+123-456-7890",
+    "socialMediaLabel": "Redes Sociales:",
+    "socialMedia": "@newsapp",
+    "twitterLink": "https://twitter.com/newsapp",
+    "teamAssistance": "Nuestro equipo está aquí para ayudarte y proporcionarte la información que necesitas."
+  }
 }

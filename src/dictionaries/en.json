@@ -27,5 +27,23 @@
     { "title": "Sleek Design", "description": "User-friendly layout makes browsing smooth" },
     { "title": "Timely Notifications", "description": "Always alerts me with breaking news in time" },
     { "title": "Reliable Source of News", "description": "I trust this app for accurate and unbiased information" }
-  ]
+  ],
+  "aboutPage": {
+    "title": "About Us",
+    "welcome": "Welcome to our news platform! We are dedicated to providing you with the latest and most relevant news from around the world. Our team of experienced journalists works tirelessly to deliver accurate and engaging content.",
+    "mission": "Our mission is to keep you informed and empowered. We cover a wide range of topics, including politics, technology, science, entertainment, and more. We believe in the power of information to inspire change and drive progress.",
+    "voteOfThanks": "Thank you for being a part of our journey. Stay connected with us for the stories that matter."
+  },
+  "contactPage": {
+    "title": "Contact Us",
+    "intro": "We value your feedback and questions. Feel free to reach out to us through the following channels.",
+    "emailLabel": "Email:",
+    "email": "contact@newsapp.com",
+    "phoneLabel": "Phone:",
+    "phone": "+123-456-7890",
+    "socialMediaLabel": "Social Media:",
+    "socialMedia": "@newsapp",
+    "twitterLink": "https://twitter.com/newsapp",
+    "teamAssistance": "Our team is here to assist you and provide you with the information you need."
+  }
 }
