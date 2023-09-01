@@ -1,3 +1,4 @@
+import LinkButton, { LinkTypes } from "@/components/LinkButton";
 import ILocaleType from "@/types/locale-types";
 import { getDictionary } from "@/utilities/get-dictionary";
 
@@ -12,19 +13,13 @@ export default async function Contact({ params: { lang } }: ILocaleType) {
         <p className="mb-4">{contactPage.intro}</p>
         <ul className="list-disc pl-6">
           <li>
-            {contactPage.emailLabel}{" "}
-            <a href={`mailto:${contactPage.email}`} className="font-bold text-blue-500 underline">
-              {contactPage.email}
-            </a>
+            {contactPage.emailLabel} <LinkButton label={contactPage.email} linkType={LinkTypes.EMAIL} link={contactPage.email} />
           </li>
           <li>
             {contactPage.phoneLabel} {contactPage.phone}
           </li>
           <li>
-            {contactPage.socialMediaLabel}{" "}
-            <a href={contactPage.twitterLink} target="_blank" rel="noopener noreferrer" className="font-bold text-blue-500 underline">
-              {contactPage.socialMedia}
-            </a>
+            {contactPage.socialMediaLabel} <LinkButton label={contactPage.socialMedia} linkType={LinkTypes.EXTERNAL} link={contactPage.twitterLink} />
           </li>
         </ul>
         <p className="mt-4">{contactPage.teamAssistance}</p>
